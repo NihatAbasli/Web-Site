@@ -1,0 +1,120 @@
+#Team {
+  height: 1200px;
+  padding: 80px 0;
+  background-color: rgb(239, 239, 239);
+}
+#Team .container {
+  margin-bottom: 50px;
+}
+
+.team-text {
+  text-align: center;
+}
+.team-text p {
+  color: rgb(119, 119, 119);
+  font-weight: 700;
+  font-size: 18px;
+}
+.team-text h4 {
+  margin: 10px 0 45px;
+  font-size: 60px;
+  color: rgb(35, 35, 35);
+}
+
+.profile-container {
+  display: flex;
+  position: absolute;
+  left: 200px;
+}
+.profile {
+  background-color: white;
+  height: 280px;
+  padding: 50px;
+  margin-right: 30px;
+  border-radius: 13px;
+  position: relative;
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.profile-title strong {
+  font-size: 25px;
+  font-weight: 700;
+}
+.profile-title p {
+  color: rgb(119, 119, 119);
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.profile-icon {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.profile-icon div {
+  padding: 12px;
+  background-color: rgb(239, 239, 239);
+  margin-right: 13px;
+  border-radius: 13px 13px 0 0;
+}
+
+.profile-icon div img {
+  width: 17px;
+}
+.big-img-container {
+  position: relative;
+  left: 200px;
+  top: 40%;
+}
+
+.big-img-container img {
+  width: 72%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.big-img-info {
+  position: absolute;
+  bottom: -65px;
+  left: 55px;
+  display: flex;
+
+  gap: 100px;
+  background-color: white;
+  width: 60%;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.big-img-info button {
+  position: absolute;
+  right: 50px;
+  padding: 17px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+.big-img-info p {
+  color: #777777;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.big-img-info strong {
+  color: rgb(49, 54, 59);
+  font-size: 18px;
+}

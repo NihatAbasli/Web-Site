@@ -1,0 +1,57 @@
+#Features {
+  background-color: #efefef;
+  height: 650px;
+}
+
+.features-container {
+  position: absolute;
+  left: 200px;
+}
+.features-container h3 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.features-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features-img-info {
+  margin-right: 50px;
+  border: none;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.features-img-info div img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: -13px;
+}
+
+.features-img-info {
+  position: relative;
+}
+
+
+.info {
+  width: 240px;
+  padding: 40px;
+  background-color: white;
+  position: relative;
+  z-index: 15;
+}
+
+.info p {
+  color: rgb(119, 119, 119);
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.info strong {
+  font-size: 26px;
+  font-weight: 700;
+}

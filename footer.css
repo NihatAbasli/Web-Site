@@ -1,0 +1,17 @@
+footer {
+  background-color: rgb(20, 25, 30);
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  top: 500px;
+  height: 90px;
+  z-index: 40;
+  padding-top: 36px;
+  box-sizing: border-box;
+}
+
+.footer-text strong {
+  color: white;
+  font-size: 17px;
+  font-weight: 200;
+}

@@ -1,0 +1,61 @@
+#Home {
+  background-image: url(./Assets/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  z-index: 1;
+  position: relative;
+}
+.bgc-black {
+  z-index: 2;
+  opacity: 0.7;
+  background-color: rgb(11, 10, 10);
+  height: 680px;
+}
+.home-container {
+  padding: 90px 0;
+  position: absolute;
+  color: white;
+  top: 130px;
+  left: 220px;
+}
+
+.home-container p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.home-container h2 {
+  font-size: 48px;
+  margin: 15px 0 20px;
+}
+.home-text {
+  font-size: 14px;
+  color: rgb(187, 187, 187);
+  margin-bottom: 40px;
+}
+.home-btn button {
+  background-color: rgb(247, 217, 196);
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(27, 32, 38);
+  cursor: pointer;
+  transition: 0.8s;
+}
+.home-btn button:hover {
+  background-color: white;
+}
+
+.home-btn .learn {
+  background: none;
+  color: white;
+  border: 2px solid rgb(70, 70, 70);
+}
+.home-btn .learn:hover {
+  background-color: rgb(247, 217, 196);
+  transition: background-color 1.2s;
+}

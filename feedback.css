@@ -1,0 +1,70 @@
+#feedback {
+  background-color: #31363b;
+  height: 750px;
+}
+.feedback-container {
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.feedback-info p {
+  color: rgb(187, 187, 187);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.feedback-info h5 {
+  margin: 0 0 35px;
+  font-size: 60px;
+  color: white;
+}
+.feedback-title {
+  display: flex;
+  width: 75%;
+}
+
+.profile-feedback {
+  height: 330px;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 40px;
+  position: relative;
+}
+
+.profile-feedback div p {
+  color: rgb(119, 119, 119);
+  font-size: 25.6px;
+  line-height: 38.4px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.feedback-icon {
+  position: absolute;
+  right: 40px;
+}
+.profile-feedback img {
+  width: 55px;
+}
+
+.profile-img-title {
+  display: flex;
+  margin-top: 60px;
+}
+.profile-img-title img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.profile-img-title strong {
+  font-size: 22px;
+}
+
+.profile-img-title div p {
+  font-size: 17px;
+  font-style: normal;
+}

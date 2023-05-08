@@ -1,0 +1,117 @@
+#best-business {
+  padding: 80px 0 100px;
+  position: relative;
+  background-color: #efefef;
+  height: 1020px;
+}
+
+.business-img img {
+  width: 470px;
+  border-radius: 10px;
+}
+
+.business-img {
+  margin-right: 80px;
+}
+
+.business-container {
+  position: absolute;
+  left: 200px;
+  display: flex;
+  justify-content: center;
+}
+.business-info {
+  padding: 20px 0;
+}
+.business-info p {
+  color: rgb(119, 119, 119);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.business-info h3 {
+  margin: 10px 0;
+  font-size: 60px;
+  color: rgb(35, 35, 35);
+}
+
+.business-info .lorem {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 25px 0;
+}
+.business-info button {
+  padding: 25px 55px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(247, 217, 196);
+  font-weight: 700;
+  font-size: 16px;
+  transition: background-color 0.6s;
+  cursor: pointer;
+}
+
+.business-info button:hover{
+  background-color: white;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container div p {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.icon-container div {
+  background-color: white;
+  padding: 35px 45px;
+  border-radius: 10px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container div img {
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+/* Section daxilindeki diger boyuk div */
+
+.control-container {
+  position: absolute;
+  bottom: 120px;
+  left: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  width: 1000px;
+  height: 250px;
+  padding: 50px;
+  margin-bottom: -25px;
+}
+
+.control-text p {
+  color: rgb(119, 119, 119);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.control-text strong {
+  font-size: 60px;
+}
+.control-img {
+  position: relative;
+  bottom: 113px;
+}
+
+.control-img img {
+  width: 320px;
+  border-radius: 10px;
+}
